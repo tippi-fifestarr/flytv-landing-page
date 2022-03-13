@@ -12,13 +12,13 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
+          <Link href="https://github.com/leelakrishnan/FlyTV">
             <a>GitHub</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href="https://www.youtube.com/watch?v=1k8craCGpgs">
+            <a>Demo Video NFT</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,15 +28,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Home for Hackathons Landing: \n'}
+            <span className="text-primary-500">Flytv</span> (the v is for ducks)
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Lorem ipsum automatically generated from your Team and Project Dashboards. A hyperstructure of best practices, streamlined sign-up, and team formation. <br> Flyt V: <Br> with you 🐤 from Roadmap to 🦆 Next Steps into Flightpath 🦅!"
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://dynamiccryptogaming.com">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>Start to Fly</Button>
             </a>
           </Link>
         }
